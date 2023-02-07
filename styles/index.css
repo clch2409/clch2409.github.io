@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+body h1{
+    font-size: 6rem;
+}
+
+article{
+    background-color: lightblue;
+    font-size: 2.5rem;
+    width: 70%;
+    border-radius: 50px;
+    padding-left: 15px;
+}
+
+aside{
+    background-color: lightpink;
+    font-size: 2.5rem;
+    width: 30%;
+    border-radius: 50px;
+    padding-left: 15px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 70%;
+}
+
+textarea{
+    width: 40%;
+    height: 100%;
+}
+
+.primeraparte{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cajaescogida{
+    width: 40%;
+}
+
+.segundaparte input{
+    width: 84.2%;;
+    margin-left: 55px;
+}
+
+.terceraparte input{
+    width: 84.2%;;
+    height: 50px;
+    margin-left: 55px;
+
+}
